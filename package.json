@@ -1,0 +1,14 @@
+{
+  "name": "good-crypto-x-test-project",
+  "version": "1.0.0",
+  "description": "Good Crypto X Test Project",
+  "scripts": {
+    "server": "cd server && node index.js",
+    "client": "npm run dev --prefix client",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
