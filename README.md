@@ -32,6 +32,8 @@ An Ethereum trading web app built with the MERN stack. Users connect an exchange
 
 ## Setup
 
+Requires **Node.js 26** or newer (see `.nvmrc`; run `nvm use` if you use nvm).
+
 ### 1. Install dependencies
 
 ```bash
